@@ -2,7 +2,7 @@
 	Scripts jQuery et Javascript
 	Par @@AuteurDuProjet
 	Pour : @@NomDuProjet - @@DateDuProjet
-	http://www.ebizproduction.com
+	http://www.ryadkarar.fr
 */
 
 $(document).ready(function() {

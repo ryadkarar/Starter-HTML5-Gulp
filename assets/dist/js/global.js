@@ -12,7 +12,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 	Scripts jQuery et Javascript
 	Par @@AuteurDuProjet
 	Pour : @@NomDuProjet - @@DateDuProjet
-	http://www.ebizproduction.com
+	http://www.ryadkarar.fr
 */
 
 $(document).ready(function() {

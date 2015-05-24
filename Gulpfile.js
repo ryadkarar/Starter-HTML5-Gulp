@@ -2,7 +2,7 @@
 	Fichier de configuration Gulp
 	Gulpfile
 	Par @@AuteurDuProjet
-	http://www.ebizproduction.com/
+	http://www.ryadkarar.fr/
 */
 
 /* A executer dans le terminal : npm install gulp gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-csso gulp-strip-comments gulp-uglify gulp-rename gulp-concat gulp-notify gulp-cache gulp-livereload del --save-dev */
