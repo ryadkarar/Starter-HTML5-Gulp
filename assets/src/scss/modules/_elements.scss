@@ -21,18 +21,46 @@
 
 /* @@AuteurDuProjet : Couleurs > Textes */
 
+.m-txt-noir {
+	color: $noir;
+}
+
+.m-txt-blanc {
+	color: $blanc;
+}
+
 .m-txt-gris {
 	color: $gris;
 }
 
 /* @@AuteurDuProjet : Couleurs > Backgrounds */
 
+.m-bg-noir {
+	background-color: $noir;
+	color: $blanc;
+	&:hover:not(div):not(section):not(span),
+	&:focus:not(div):not(section):not(span),
+	&:active:not(div):not(section):not(span) {
+		background-color: darken($noir, 15%);
+	}
+}
+
+.m-bg-blanc {
+	background-color: $blanc;
+	color: $gris;
+	&:hover:not(div):not(section):not(span),
+	&:focus:not(div):not(section):not(span),
+	&:active:not(div):not(section):not(span) {
+		background-color: darken($blanc, 15%);
+	}
+}
+
 .m-bg-gris {
 	background-color: $gris;
 	color: $blanc;
-	&:hover:not(div):not(span),
-	&:focus:not(div):not(span),
-	&:active:not(div):not(span) {
-		background-color: darken($gris, 5%);
+	&:hover:not(div):not(section):not(span),
+	&:focus:not(div):not(section):not(span),
+	&:active:not(div):not(section):not(span) {
+		background-color: darken($gris, 15%);
 	}
 }
