@@ -1,0 +1,39 @@
+/*
+	Feuille de style SASS
+	SMACSS : Modules > Elements
+	Par @@AuteurDuProjet
+	Pour : @@NomDuProjet - @@DateDuProjet
+	http://www.ebizproduction.com/
+*/
+
+/* @@AuteurDuProjet : Alignement */
+
+.m-txt-left {
+	text-align: left !important;
+}
+
+.m-txt-center {
+	text-align: center !important;
+}
+
+.m-txt-right {
+	text-align: right !important;
+}
+
+/* @@AuteurDuProjet : Couleurs > Textes */
+
+.m-txt-gris {
+	color: $gris;
+}
+
+/* @@AuteurDuProjet : Couleurs > Backgrounds */
+
+.m-bg-gris {
+	background-color: $gris;
+	color: $blanc;
+	&:hover:not(div):not(span),
+	&:focus:not(div):not(span),
+	&:active:not(div):not(span) {
+		background-color: darken($gris, 5%);
+	}
+}

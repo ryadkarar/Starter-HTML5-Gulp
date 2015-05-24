@@ -1,0 +1,44 @@
+/*
+	Feuille de style SASS
+	SMACSS : Style
+	Par @@AuteurDuProjet
+	Pour : @@NomDuProjet - @@DateDuProjet
+	http://www.ebizproduction.com/
+*/
+
+/* @@AuteurDuProjet : Outils et fonctions */
+
+@import "tools/mixins";
+@import "tools/functions";
+@import "tools/tools";
+@import "tools/hacks";
+
+/* @@AuteurDuProjet : Général, reset et formulaires */
+
+@import "base/foundation";
+@import "base/reset";
+@import "base/base";
+@import "base/form";
+
+/* @@AuteurDuProjet : CSS par type de contenus */
+
+@import "no-modular/home";
+
+/* @@AuteurDuProjet : Maquette et tout ce qui n'est pas modulaire */
+
+@import "layout/header";
+@import "layout/nav";
+@import "layout/main";
+@import "layout/sidebar";
+@import "layout/footer";
+
+/* @@AuteurDuProjet : Modules et tous les élements qui se répètent */
+
+@import "modules/btn";
+@import "modules/elements";
+@import "modules/icons";
+@import "modules/animations";
+
+/* @@AuteurDuProjet : Responsive */
+
+@import "layout/responsive";

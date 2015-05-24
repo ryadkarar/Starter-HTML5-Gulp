@@ -1,0 +1,54 @@
+/*
+	Feuille de style SASS
+	SMACSS : Base > Form
+	Par @@AuteurDuProjet
+	Pour : @@NomDuProjet - @@DateDuProjet
+	http://www.ebizproduction.com/
+*/
+
+/* @@AuteurDuProjet : Input */
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="password"],
+input[type="url"],
+input[type="file"],
+.file-widget {
+	-webkit-appearance: none;
+	display: block;
+	border: none;
+	z-index: 2;
+	width: 100%;
+	margin: 0;
+	background-color: $blanc;
+	color: $gris;
+	& + input {
+		margin-top: 1em;
+	}
+}
+
+textarea {
+	margin-top: 1.5em;
+}
+
+input[type="submit"] {
+	width: 100%;
+	-webkit-appearance: none;
+	display: block;
+	border: none;
+}
+
+input[type="file"] {
+	color: $gris;
+	font-size: 1em;
+}
+
+form {
+	label,
+	.description {
+		display: none;
+	}
+}

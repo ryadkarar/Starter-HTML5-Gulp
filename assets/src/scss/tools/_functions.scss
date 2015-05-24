@@ -1,0 +1,17 @@
+/*
+	Feuille de style SASS
+	SMACSS : Tools > Fonctions
+	Par @@AuteurDuProjet
+	Pour : @@NomDuProjet - @@DateDuProjet
+	http://www.ebizproduction.com/
+*/
+
+/* @@AuteurDuProjet : Fonctions > Typographie */
+
+@function pxtoem($target, $context){
+	@return ($target/$context)+0em;
+}
+
+@function emtopx($target, $context){
+	@return ($target*$context)+0px;
+}

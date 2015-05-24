@@ -1,0 +1,53 @@
+/*
+	Feuille de style SASS
+	SMACSS : Layout > Sidebar
+	Par @@AuteurDuProjet
+	Pour : Archiscopie - Janvier 2015
+	http://www.ebizproduction.com/
+*/
+
+/* Archiscopie : Aside */
+
+#l-wrapper-body {
+	aside {
+		div {
+			margin-bottom: 2em;
+		}
+		.m-mag-cover {
+			position: relative;
+			&:before {
+				opacity: 0;
+				left: 0;
+				top: 0;
+				position: absolute;
+				content: '';
+				display: block;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, .7);
+			}
+			&:hover {
+				&:before,
+				.m-btn {
+					opacity: 1;
+					transform: scale(1);
+				}
+			}
+			.m-btn {
+				opacity: 0;
+				transform: scale(1.2);
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin: -26px 0 0 -69px;
+			}
+		}
+		h3 {
+			margin-top: 3em;
+		}
+		.m-btn {
+			display: block;
+			margin: 2em auto 0;
+		}
+	}
+}

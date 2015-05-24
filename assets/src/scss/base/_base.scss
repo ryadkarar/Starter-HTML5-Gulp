@@ -1,0 +1,85 @@
+/*
+	Feuille de style SASS
+	SMACSS : Base > Base
+	Par @@AuteurDuProjet
+	Pour : @@NomDuProjet - @@DateDuProjet
+	http://www.ebizproduction.com/
+*/
+
+/* @@AuteurDuProjet : Général */
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $font;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: $gris;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: normal;
+	margin: 0;
+}
+
+h1 {
+	color: $gris;
+}
+
+h2 {
+	color: $gris;
+}
+
+h3 {
+	color: $gris;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	border: none;
+	background: $gris;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+::-moz-selection {
+	background: $gris;
+	color: $blanc;
+	text-shadow: none;
+}
+
+::selection {
+	background: $gris;
+	color: $blanc;
+	text-shadow: none;
+}
